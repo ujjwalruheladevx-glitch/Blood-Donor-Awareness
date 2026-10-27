@@ -1,0 +1,71 @@
+body {
+    margin: 30px;
+    padding: px;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: darkred;
+}
+
+h3 {
+    color: darkred;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+p,
+li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(234, 199, 199);
+}
+
+input,
+select {
+    width: 320px;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid darkred;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+div {
+    text-align: center;
+}

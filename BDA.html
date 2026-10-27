@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <h1>Blood Donation Awareness</h1>
+        <p>Donate blood and save lives. One donation can save up to 3 people.</p>
+        <hr>
+
+        <h3>1. Why Donate Blood?</h3>
+        <p>Blood is needed for accidents, surgeries, and serious patients. Blood cannot be manufactured, only humans can
+            donate it.</p>
+
+        <h3>2. Eligibility Criteria</h3>
+        <ul>
+            <li>Age: 18 to 65 years</li>
+            <li>Weight: Minimum 50 kg</li>
+            <li>Hemoglobin: Minimum 12.5 g/dl</li>
+            <li>No fever, cold, or recent tattoo in last 6 months</li>
+        </ul>
+
+        <h3>3. Donation Process</h3>
+        <ol>
+            <li>Registration</li>
+            <li>Medical Checkup</li>
+            <li>Blood Donation (takes 10 minutes)</li>
+            <li>Refreshment and Rest</li>
+        </ol>
+        <hr>
+
+        <h3>4. Upcoming Blood Camps</h3>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Timing</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>15 Oct 2026</td>
+                <td>City College Ground</td>
+                <td>9 AM - 3 PM</td>
+                <td>9876543210</td>
+            </tr>
+            <tr>
+                <td>22 Oct 2026</td>
+                <td>Community Hall, Sector 4</td>
+                <td>10 AM - 4 PM</td>
+                <td>9811122233</td>
+            </tr>
+            <tr>
+                <td>30 Oct 2026</td>
+                <td>Red Cross Center</td>
+                <td>9 AM - 5 PM</td>
+                <td>9899988877</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h3>5. Donor Registration Form</h3>
+        <form id="donorForm">
+            <label>Name:</label><br>
+            <input type="text" id="name"><br><br>
+
+            <label>Age:</label><br>
+            <input type="number" id="age" min="18" max="65"><br><br>
+
+            <label>Blood Group:</label><br>
+            <select id="blood">
+                <option value="">--Select--</option>
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </select><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" id="phone"><br><br>
+
+            <label>City:</label><br>
+            <input type="text" id="city"><br><br>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+
+        <hr>
+        <div class="footer">
+            <p>Blood Donation Awareness Project</p>
+            <p><b>Helpline Number: 1800-111-999</b></p>
+        </div>
+    </fieldset>
+</body>
+
+</html>
